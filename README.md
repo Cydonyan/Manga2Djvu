@@ -16,18 +16,21 @@ could be ported to windows, but, bruh, i am not doing that
 ### Usage
 
 On the top of the script you need to specify:
-- `indir` path (thats a path to the directory in which all downloaded chapters are stored ***nothing else should be there***),
+- `indir` path (thats a path to the directory in which all downloaded chapters are stored and ***nothing else should be there***),
 - `outdir` path (a path where all temporary files will be output, ideally it should be empty, but thats not necessary)
 - `outfname` (a name of a final DJVU file)
 - ***optionally*** you can set a `DPI` parameter which contols, you guessed it, the DPI of the page
 
-After all parameters are specified, launch a python script with `python3 script.py`.
+After all parameters are specified, launch a python script with `python3 script.py`.(duh)
+
 Then you should sit and wait untill you see "done!" printed
 
 The final book will be in the `outdir` path somwhere between countless "volN" folders
 
-### If something went wrong and it spits a bunch of errors:
+### If something went wrong and it spits a bunch of errors at you:
 
 https://www.python.org/doc/
+
 https://linux.die.net/man/1/djvu
+
 Good luck!
