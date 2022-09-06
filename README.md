@@ -1,7 +1,9 @@
 # Manga2Djvu
 
-A handy-dandy python script to convert chapters downloaded from mangalib.me to a single DJVU book 
+A handy-dandy python script to convert chapters downloaded from mangalib.me to a single DJVU book
+
 ***LINUX ONLY***
+
 could be ported to windows, but, bruh, i am not doing that
 
 ### Installation
