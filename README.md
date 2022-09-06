@@ -1,6 +1,6 @@
 # Manga2Djvu
 
-A handy-dandy python script to convert chapters downloaded from mangalib.me to a single DJVU book
+A handy-dandy python script to convert chapters downloaded[^1] from mangalib.me to a single DJVU book
 
 ***LINUX ONLY***
 
@@ -25,7 +25,7 @@ After all parameters are specified, launch a python script with `python3 script.
 
 Then you should sit and wait untill you see "done!" printed
 
-The final book will be in the `outdir` path somwhere between countless "volN" folders
+The final book will be in the `outdir` path somwhere between countless "vol" folders
 
 ### If something went wrong and it spits a bunch of errors at you:
 
@@ -34,3 +34,7 @@ https://www.python.org/doc/
 https://linux.die.net/man/1/djvu
 
 Good luck!
+
+------------
+
+[^1]: Downloading from mangalib.me can be eased by this tampermonkey [script](https://greasyfork.org/ru/scripts/399534-mangalib-download-all-chapters)
